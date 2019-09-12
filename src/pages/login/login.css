@@ -1,0 +1,15 @@
+#login .logo{
+    width: 200px;
+    height: 146px;
+    margin: 10% 0;
+}
+
+#login .msg{
+    position: fixed;
+    bottom: 50px;   
+    width: 100%; 
+    color: #ccc;
+}
+#login .toOther a{
+    color: #f60;
+}

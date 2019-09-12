@@ -1,0 +1,55 @@
+#my{
+    height: 100%;
+}
+#my .header{
+    background-color: skyblue;
+    padding:0 15px; 
+    color: #fff;
+}
+#my .header>div{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+#my .header .userInf  a{
+    color: #fff;
+    font-size: 18px;
+}
+#my .header .userInf .userImg{
+    width: 50px;
+    height: 50px;
+    margin:10px 15px 0 0;
+    flex: 0 0;
+}
+#my .header .userInf .setImg{
+    width: 5px;
+    height: 20px;
+    margin-top: 10px;
+    flex: 0 0;
+}
+#my .header .userInf div{
+    flex: 1 1;
+}
+#my .header .aboutMoney{
+    justify-content: space-around;
+    text-align: center;
+    padding: 0
+}
+#my .header .aboutMoney>div{
+    margin: 10px 0;
+    flex:1 1;
+    border-right: 1px solid #fff;
+    line-height: 24px;
+}
+#my .header .aboutMoney>div:last-child{
+    border: none
+}
+#my .my-list{
+    margin-top: 15px;
+}
+#my .topicon{
+    width:22px;
+    height: 22px;
+    margin-right: 10px;
+    vertical-align: middle
+}

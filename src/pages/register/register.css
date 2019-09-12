@@ -1,0 +1,8 @@
+#register .check {
+    position: relative;
+}
+#register .check span{
+position: absolute;
+right: 15px;
+top: 16px;
+}

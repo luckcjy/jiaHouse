@@ -1,0 +1,67 @@
+#main{
+    height: 100%;
+}
+#main .top {
+    padding: 10px;
+    color: #fff;
+}
+#main .top img{
+    width: 30px;
+    height: 30px;
+}
+
+#main .top .search-div{
+    height: 40px;
+    width: 70%;
+    background-color: #FFF;
+    border-radius: 20px;
+    color: #666666;
+    display: flex;
+    align-items: center;
+}
+#main .topSearch{
+    flex: 1;
+    background-color: rgb(39, 136, 192)
+}
+#main .topSearch .am-search-input{
+    border-radius: 28px;
+}
+#main .top{
+    background-color: rgb(39, 136, 192);
+}
+#main .am-grid-item image{
+ width: 100%;
+}
+#main .am-grid-item-content{
+    padding-bottom: 0;
+}
+#main .guessLike{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+#main .guessLike:first-of-type{
+    margin-top: 10px;
+}
+#main .houseImg{
+    width: 100px;
+    height: 120px;
+    margin-right: 20px     
+}
+#main .houseInf{
+    flex: 1 1;
+}
+#main .houseInf h3{
+    font-size:20px;
+}
+#main .houseInf p{
+    color: #a8a8a8
+}
+#main .housePrice{
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+}
+#main .am-grid.am-grid-square .am-grid-item .am-grid-item-inner-content .am-grid-icon{
+    width: 40%!important
+}

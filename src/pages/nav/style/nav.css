@@ -1,0 +1,24 @@
+#index{
+   height: 100%;
+   background-color: #eee;
+}/* 
+#index div{
+   width: 100%;
+}
+#index .main{
+   flex: 1 1; 
+}
+#index .nav{
+   flex: 0 0 60px;
+   border-top: 1px solid #eee;
+} */
+#index #tab-bar.demo {
+   display: flex;
+   flex-direction: column;
+ }
+ #index #tab-bar .demoName {
+   height: 40px;
+ }
+ #index #tab-bar .demo-preview-item .am-tab-bar {
+   background-color: white;
+ }
