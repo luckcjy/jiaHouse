@@ -66,6 +66,7 @@ export default class Login extends Component {
             login({acc,pwd})
                 .then(data => {
                     if (data === "ok") {
+                        localStorage.setItem("jiaHouse",acc)
                         this.props.history.replace('/');
                     } else {
                         // console.log(this.props.history)

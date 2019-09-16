@@ -4,7 +4,7 @@ import Chat from './chat/Chat';
 import History from './history/History';
 import Main from './main/Main';
 import My from './my/My';
-import { TabBar, Flex } from 'antd-mobile';
+import { TabBar } from 'antd-mobile';
 
 import './style/nav.css'
 

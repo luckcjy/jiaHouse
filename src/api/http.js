@@ -2,7 +2,7 @@ import axios from 'axios';
 import qs from 'qs'
 
 const axiosInstanse = axios.create({
-    baseURL:"http://192.168.1.102:1234"
+    baseURL:"http://192.168.1.104:1234"
 })
 
 function http(type,url,param=null){
@@ -24,5 +24,5 @@ export const reg = data => {return http("post","/reg.php",data)}
 //获取验证码
 export const checkCode = data =>{return http("get","/valitecode.php",data)}
 
-//获取验证码
+//猜你喜欢过
 export const guseeLike = data =>{return http("get","/gethouselist.php",data)}

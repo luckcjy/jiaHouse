@@ -3,13 +3,16 @@
 }
 #my .header{
     background-color: skyblue;
-    padding:0 15px; 
+    padding:0 15px;  
     color: #fff;
 }
 #my .header>div{
     display: flex;
     flex-direction: row;
-    padding-top: 20px;
+}
+#my .header .userInf{
+    font-size: 18px;
+
 }
 #my .header .userInf  a{
     color: #fff;
@@ -34,6 +37,9 @@
     justify-content: space-around;
     text-align: center;
     padding: 0
+}
+#my .header .aboutMoney P{
+    margin-top: 0;
 }
 #my .header .aboutMoney>div{
     margin: 10px 0;

@@ -26,7 +26,7 @@ export default class Register extends Component {
     render() {
         return (
             <div id="register">
-                <NoticeBar mode="closable"  style={{display:this.state.show}} icon={<Icon type="check-circle-o" size="xxs" />}>
+                <NoticeBar  onClick={v=>{this.setState({show:"none"})}}  style={{display:this.state.show}} icon={<Icon type="check-circle-o" size="xxs" />}>
                    验证码为:{ this.state.returnCode }
                 </NoticeBar>
                 <WingBlank size="lg">

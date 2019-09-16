@@ -1,3 +1,8 @@
+#login{
+    height: 100%;
+    min-height: 500px;
+    position: relative;
+}
 #login .logo{
     width: 200px;
     height: 146px;
@@ -5,7 +10,7 @@
 }
 
 #login .msg{
-    position: fixed;
+    position: absolute;
     bottom: 50px;   
     width: 100%; 
     color: #ccc;
