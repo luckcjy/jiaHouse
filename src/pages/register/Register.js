@@ -88,7 +88,7 @@ export default class Register extends Component {
             })
     }
     toReg() {
-
+        
         let { acc, pwd, isCheck, isAgr,checkNum,returnCode } = this.state
         if(checkNum == returnCode && checkNum){
             isCheck = true
@@ -96,7 +96,8 @@ export default class Register extends Component {
             isCheck = false
         }
         this.setState({
-            returnCode:""
+            returnCode:"",
+            show:"none"
         })
         if (isCheck && isAgr && acc && pwd) {
             reg({ acc, pwd })

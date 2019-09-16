@@ -1,9 +1,30 @@
 import React, { Component } from 'react'
 
 export default class MyMap extends Component {
+     //初始按压值
+     getStartX(ev) {
+        // console.log(ev)
+        if (ev.touches.length == 1) {
+            //tounches类数组，等于1时表示此时有只有一只手指在触摸屏幕
+             this.startX = ev.touches[0].clientX; // 记录开始位置
+            //  this.setState({
+            //     xValue: ev.touches[0].clientX
+            //  })
+            // console.log(this.startX)
+        }
+    }
+    levePage(ev) {
+        // console.log(this.startX)
+
+        // ev.preventDefault();
+        if (Math.abs(ev.touches[0].clientX - this.startX) > 150) {
+            // console.log(Math.abs(ev.touches[0].clientX ) )
+            this.props.history.push('/')
+        }
+    }
     render() {
         return (
-            <div>
+            <div onTouchStart={ this.getStartX.bind(this) } onTouchMove={ this.levePage.bind(this) }>
                 <div id="box" style={{ width: "100%", height: "400px" }}>
 
                 </div>
