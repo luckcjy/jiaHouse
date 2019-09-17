@@ -1,0 +1,11 @@
+#city p{
+    border-bottom: 1px solid #eee;
+    line-height: 40px;
+}
+#city ul{
+    margin: 0;
+    padding: 10px 20px;
+}
+#city h2{
+    background-color: #eee;
+}

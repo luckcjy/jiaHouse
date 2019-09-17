@@ -1,0 +1,48 @@
+.guessLike h3{
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+}
+ .guessLike{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.guessLike:first-of-type{
+    margin-top: 10px;
+}
+.guessLike .houseImg{
+    width: 100px;
+    height: 120px;
+    margin-right: 20px     
+}
+.guessLike .houseInf{
+     flex: 1 1;
+}
+.guessLike .houseInf>div{
+   
+    min-width: 60% !important;
+}
+.guessLike .houseInf h3{
+    margin-top: 0;
+    font-size:20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.guessLike .houseInf p{
+    color: #a8a8a8
+}
+.guessLike .housePrice{
+    font-size: 14px;
+    color: red;
+    font-weight: bold;
+    flex: 0 0 70px;
+    text-align: right;
+}
+.guessLike .am-flexbox{
+    align-items: flex-start
+}
+.guessLike .am-flexbox.am-flexbox-justify-between{
+    align-items: flex-start
+}
